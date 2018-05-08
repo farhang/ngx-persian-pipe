@@ -1,6 +1,7 @@
 {
   "name": "ngx-persian-pipe",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "homepage": "https://github.com/farhang/ngx-persian-pipe#readme",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
