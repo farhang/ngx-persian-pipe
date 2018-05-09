@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
-import { PersianPipesModule } from "./modules/pipes/persian-pipes.module";
+import { PersianPipesModule } from "./modules/persian-pipes.module";
 @NgModule({
   declarations: [
     AppComponent,

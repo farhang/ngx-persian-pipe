@@ -8,20 +8,20 @@ npm install ngx-persian-pipe --save
 
 Usage
 
-Import PipesModule into your app's modules:
+Import PipesModule into your app.module.ts as follows:
 
-import { PipesModule } from "ngx-persian-pipe";
+import { PersianPipesModule } from 'ngx-persian-pipe';
 
-@NgModule({
   imports: [
-    PipesModule
-  ]
-})
+    BrowserModule,
+    PersianPipesModule
+  ],
 
-use in your app template as follows: 
+suse in your app templates as follows: 
 
-{{'138793' | 'engToPerNumber'}} 
+{{'3423432' |  perNumber}}
 
-{{'138793' | 'numToPerWord'}}
- 
-{{'۱۳۸۷۹۳' | 'perNumber'}} 
+{{'۲۱۳۴۲۳۴۲۳' |  perToEngNumber}}
+
+{{'12312' |  numToPerWord}}
+

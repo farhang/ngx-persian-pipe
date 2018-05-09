@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { PersianNumberService } from '../utils/persian-number.service'
+import { PersianNumberService } from './utils/persian-number.service'
 
 @Pipe({
   name: 'perNumber'

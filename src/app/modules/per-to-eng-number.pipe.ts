@@ -1,10 +1,10 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import {PersianNumberService} from "../utils/persian-number.service";
+import {PersianNumberService} from "./utils/persian-number.service";
 
 @Pipe({
-  name: 'engToPerNumber'
+  name: 'perToEngNumber'
 })
-export class EngToPerNumberPipe implements PipeTransform {
+export class PerToEngNumberPipe implements PipeTransform {
 
   constructor(private persianNumberService: PersianNumberService) { }
 
