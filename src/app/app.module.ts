@@ -2,12 +2,16 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { PersianNumberPipe } from './modules/persianNumber/persian-number.pipe';
-import {PersianNumberService} from "./modules/utils/persian-number.service";
+import { PersianNumberService } from "./modules/utils/persian-number.service";
+import { PerNumberPipe } from './modules/pipes/per-number.pipe';
+import { EngToPerNumberPipe } from './modules/pipes/eng-to-per-number.pipe';
+import { NumToPerWordPipe  } from "./modules/pipes/num-to-per-word.pipe";
 @NgModule({
   declarations: [
     AppComponent,
-    PersianNumberPipe,
+    PerNumberPipe,
+    EngToPerNumberPipe,
+    NumToPerWordPipe
   ],
   imports: [
     BrowserModule,

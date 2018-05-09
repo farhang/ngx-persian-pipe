@@ -1,4 +1,5 @@
 ﻿import { Injectable } from '@angular/core';
+import { NumberToPersianWord } from './number-to-persian-word'
 
 @Injectable()
 export class PersianNumberService {
@@ -15,6 +16,10 @@ export class PersianNumberService {
 
     var regexp = new RegExp('^[\u06F0-\u06F9]+$');
     return regexp.test(num);
+  }
+
+  toPersianWord(number: number | string): string {
+    return (new NumberToPersianWord).convertNumberToString(this.toEngNumber(number as string));
   }
 
   toEngNumber(number: string): number {
