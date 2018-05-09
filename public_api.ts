@@ -1,1 +1,1 @@
-export * from './src/app/modules/persianNumber/persian-number.module'
+export * from './src/app/modules/pipes/persian-pipes.module'

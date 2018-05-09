@@ -12,4 +12,4 @@ import { NumToPerWordPipe } from './num-to-per-word.pipe';
   exports: [PerNumberPipe, EngToPerNumberPipe, NumToPerWordPipe],
   providers: [PersianNumberService],
 })
-export class PipesModule { }
+export class PersianPipesModule { }
