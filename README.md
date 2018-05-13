@@ -40,3 +40,5 @@ npm install
 ```
 ng serve
 ```
+## License
+MIT © [Farhang Darzi](mailto:farhang.darzi@gmail.com)
