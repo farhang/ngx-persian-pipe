@@ -2,26 +2,41 @@
 
 Persian pipes for Angular 2+ applications.
 
-Install
-
+## Install
+```
 npm install ngx-persian-pipe --save
+```
 
-Usage
+## Usage
 
-Import PipesModule into your app.module.ts as follows:
-
+Import PersianPipesModule into your app.module.ts as follows:
+```
 import { PersianPipesModule } from 'ngx-persian-pipe';
 
   imports: [
     BrowserModule,
     PersianPipesModule
   ],
+```
 
-suse in your app templates as follows: 
+##Examples:
+Use in your app templates as follows: 
 
-{{'3423432' |  perNumber}}
+{{'123' |  perNumber}}  // output => ۱۲۳
 
-{{'۲۱۳۴۲۳۴۲۳' |  perToEngNumber}}
+{{'۱۲۳' |  perToEngNumber}} // output => 123
 
-{{'12312' |  numToPerWord}}
+{{'123' |  numToPerWord}} // => صد و بیست و سه
 
+## Contribute
+1. install nodejs and npm.
+2. install @angular/cli.
+3. clone the project.
+4. Run the following command on ngx-persian-pipe folder:
+```
+npm install
+```
+5. Run the following command to serve the project:
+```
+ng serve
+```
