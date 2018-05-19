@@ -28,7 +28,7 @@ Use in your app templates as follows:
 
 {{'123' |  numToPerWord}} // => صد و بیست و سه
 
-{{'123123123' |  moneyFormatter: 'IRR'}} // =>  ۱۲۳,۱۲۳,۱۲۳ ریال
+{{'-123123123' |  moneyFormatter: 'IRR'}} // =>  -۱۲۳,۱۲۳,۱۲۳ ریال
 {{'123123123' |  moneyFormatter}} // =>  ۱۲۳,۱۲۳,۱۲۳
 
 ## Contribute
